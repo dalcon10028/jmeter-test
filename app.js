@@ -8,7 +8,19 @@ const { swaggerUi, specs } = require('./modules/swagger');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var apple1Router = require('./routes/apple/apple1');
+var appleRouters = [];
+var bananaRouters = [];
+var catRouters = [];
+var dogRouters = [];
+var elephantRouters = [];
+
+for (let i = 1; i <= 5; i++) {
+  appleRouters[i] = require(`./routes/apple/apple${i}`);
+  bananaRouters[i] = require(`./routes/apple/apple${i}`);
+  catRouters[i] = require(`./routes/apple/apple${i}`);
+  dogRouters[i] = require(`./routes/apple/apple${i}`);
+  elephantRouters[i] = require(`./routes/apple/apple${i}`);
+}
 
 var app = express();
 
@@ -25,7 +37,15 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 app.use('/users', usersRouter);
-app.use('/apple1', apple1Router);
+
+for (let i = 1; i <= 5; i++) {
+  app.use(`/apple${i}`, appleRouters[i]);  
+  app.use(`/banana${i}`, bananaRouters[i]);
+  app.use(`/cat${i}`, catRouters[i]);
+  app.use(`/dog${i}`, dogRouters[i]);
+  app.use(`/elephant${i}`, elephantRouters[i]);
+}
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
