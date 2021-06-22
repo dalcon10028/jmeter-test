@@ -34,6 +34,12 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.all('/*', function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "X-Requested-With");
+  next();
+});
+
 app.use('/', indexRouter);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 app.use('/users', usersRouter);
@@ -45,6 +51,7 @@ for (let i = 1; i <= 5; i++) {
   app.use(`/dog${i}`, dogRouters[i]);
   app.use(`/elephant${i}`, elephantRouters[i]);
 }
+
 
 
 // catch 404 and forward to error handler
