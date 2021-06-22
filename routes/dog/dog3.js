@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/', function (req, res, next) {
-	console.log(req.body);
+	
 	res.status(200).json({
 		name: 'dog',
 		message:"i'm dog post"
@@ -18,7 +18,7 @@ router.post('/', function (req, res, next) {
 });
 
 router.put('/', function (req, res, next) {
-	console.log(req.body);
+	
 	res.status(200).json({
 		name: 'dog',
 		message:"i'm dog put"
@@ -26,7 +26,7 @@ router.put('/', function (req, res, next) {
 });
 
 router.delete('/', function (req, res, next) {
-	console.log(req.body);
+	
 	res.status(200).json({
 		name: 'dog',
 		message:"i'm dog delete"
