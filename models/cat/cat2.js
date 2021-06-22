@@ -1,9 +1,9 @@
 /**
  * @swagger
- *  /cat1:
+ *  /cat2:
  *    get:
  *      tags:
- *      - cat1
+ *      - cat2
  *      description: cat API
  *      produces:
  *      - application/json
@@ -14,10 +14,10 @@
 
 /**
  * @swagger
- *  /cat1:
+ *  /cat2:
  *    post:
  *      tags:
- *      - cat1
+ *      - cat2
  *      description: cat API
  *      produces:
  *      - application/json
@@ -28,10 +28,10 @@
 
 /**
  * @swagger
- *  /cat1:
+ *  /cat2:
  *    put:
  *      tags:
- *      - cat1
+ *      - cat2
  *      description: cat API
  *      produces:
  *      - application/json
@@ -42,10 +42,10 @@
 
 /**
  * @swagger
- *  /cat1:
+ *  /cat2:
  *    delete:
  *      tags:
- *      - cat1
+ *      - cat2
  *      description: cat API
  *      produces:
  *      - application/json

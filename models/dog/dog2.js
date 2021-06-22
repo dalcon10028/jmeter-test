@@ -1,9 +1,9 @@
 /**
  * @swagger
- *  /dog1:
+ *  /dog2:
  *    get:
  *      tags:
- *      - dog1
+ *      - dog2
  *      description: dog API
  *      produces:
  *      - application/json
@@ -14,10 +14,10 @@
 
 /**
  * @swagger
- *  /dog1:
+ *  /dog2:
  *    post:
  *      tags:
- *      - dog1
+ *      - dog2
  *      description: dog API
  *      produces:
  *      - application/json
@@ -28,10 +28,10 @@
 
 /**
  * @swagger
- *  /dog1:
+ *  /dog2:
  *    put:
  *      tags:
- *      - dog1
+ *      - dog2
  *      description: dog API
  *      produces:
  *      - application/json
@@ -42,10 +42,10 @@
 
 /**
  * @swagger
- *  /dog1:
+ *  /dog2:
  *    delete:
  *      tags:
- *      - dog1
+ *      - dog2
  *      description: dog API
  *      produces:
  *      - application/json

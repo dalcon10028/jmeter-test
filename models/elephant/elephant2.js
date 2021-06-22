@@ -1,9 +1,9 @@
 /**
  * @swagger
- *  /elephant1:
+ *  /elephant2:
  *    get:
  *      tags:
- *      - elephant1
+ *      - elephant2
  *      description: elephant API
  *      produces:
  *      - application/json
@@ -14,10 +14,10 @@
 
 /**
  * @swagger
- *  /elephant1:
+ *  /elephant2:
  *    post:
  *      tags:
- *      - elephant1
+ *      - elephant2
  *      description: elephant API
  *      produces:
  *      - application/json
@@ -28,10 +28,10 @@
 
 /**
  * @swagger
- *  /elephant1:
+ *  /elephant2:
  *    put:
  *      tags:
- *      - elephant1
+ *      - elephant2
  *      description: elephant API
  *      produces:
  *      - application/json
@@ -42,10 +42,10 @@
 
 /**
  * @swagger
- *  /elephant1:
+ *  /elephant2:
  *    delete:
  *      tags:
- *      - elephant1
+ *      - elephant2
  *      description: elephant API
  *      produces:
  *      - application/json

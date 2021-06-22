@@ -1,9 +1,9 @@
 /**
  * @swagger
- *  /apple1:
+ *  /apple2:
  *    get:
  *      tags:
- *      - apple1
+ *      - apple2
  *      description: apple API
  *      produces:
  *      - application/json
@@ -14,10 +14,10 @@
 
 /**
  * @swagger
- *  /apple1:
+ *  /apple2:
  *    post:
  *      tags:
- *      - apple1
+ *      - apple2
  *      description: apple API
  *      produces:
  *      - application/json
@@ -28,10 +28,10 @@
 
 /**
  * @swagger
- *  /apple1:
+ *  /apple2:
  *    put:
  *      tags:
- *      - apple1
+ *      - apple2
  *      description: apple API
  *      produces:
  *      - application/json
@@ -42,10 +42,10 @@
 
 /**
  * @swagger
- *  /apple1:
+ *  /apple2:
  *    delete:
  *      tags:
- *      - apple1
+ *      - apple2
  *      description: apple API
  *      produces:
  *      - application/json

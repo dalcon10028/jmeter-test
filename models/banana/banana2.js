@@ -1,9 +1,9 @@
 /**
  * @swagger
- *  /banana1:
+ *  /banana2:
  *    get:
  *      tags:
- *      - banana1
+ *      - banana2
  *      description: banana API
  *      produces:
  *      - application/json
@@ -14,10 +14,10 @@
 
 /**
  * @swagger
- *  /banana1:
+ *  /banana2:
  *    post:
  *      tags:
- *      - banana1
+ *      - banana2
  *      description: banana API
  *      produces:
  *      - application/json
@@ -28,10 +28,10 @@
 
 /**
  * @swagger
- *  /banana1:
+ *  /banana2:
  *    put:
  *      tags:
- *      - banana1
+ *      - banana2
  *      description: banana API
  *      produces:
  *      - application/json
@@ -42,10 +42,10 @@
 
 /**
  * @swagger
- *  /banana1:
+ *  /banana2:
  *    delete:
  *      tags:
- *      - banana1
+ *      - banana2
  *      description: banana API
  *      produces:
  *      - application/json
